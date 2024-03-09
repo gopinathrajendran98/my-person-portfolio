@@ -1,0 +1,96 @@
+ .home-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 80px;
+    justify-content: space-around;
+}
+
+.home-content{
+    display: inline;
+}
+
+.home-content h2{
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4rem;
+    margin-bottom: 1%;
+    padding-left: 60px;
+    color:brown;
+}
+
+.home-content h3{
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4rem;
+    margin-bottom: 1%;
+    padding-left: 60px;
+    color:brown;
+}
+
+.home-content p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 4rem;
+    padding-left: 60px;
+    margin-top: 5px;
+    color: brown;
+
+}
+
+.home-content button{
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 118px;
+}
+
+.home-content button:hover{
+    color: darkmagenta;
+    color: white;
+}
+
+
+.side-container{
+    display: flex;
+    
+}
+
+.side-right {
+    float: right;
+    align-items: end;
+}
+
+
+
+@media (max-width:770px){
+    body{
+        color: #a993fe;
+    }
+ 
+ 
+ } 
+
+
+ .tech-icon img{
+    width: 250px;
+   
+ }
+
+ .home-img{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+} 
+.float-right{
+    width:100px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.float-right a{
+    color: #664fc1;
+}
