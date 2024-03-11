@@ -16,7 +16,7 @@ const Home = () =>{
              <h3 class="text-start">I am Gopinath Rajendran</h3>
              <p>I am a frontend developer.</p>
              <a href="resume.pdf" download>
-                <button type="button" class="btn btn-secondary">Resume</button>
+                <button type="button" class="btn btn-secondary">Download CV</button>
             </a>
         
             </div>

@@ -17,6 +17,7 @@ const Contact = () => {
     var text = document.getElementById("messageText").value;
     console.log("text",text)
 
+
     if(text.length === 0){
       toast.error("Error!")
       
@@ -58,14 +59,14 @@ const Contact = () => {
 
     <div class="mb-3 ">
   <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input type="text" class="form-control" id="messageText" pattern="[a-zA-Z]*"  placeholder="Your Name" style={{"width":"350px"}}/>
+  <input type="text" class="form-control" id="messageText"   placeholder="Your Name" style={{"width":"350px"}}/>
 </div>
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="messageText" placeholder="Your Email" style={{"width":"350px"}}/>
+  <input type="text" class="form-control" id="messageText" placeholder="Your Email" style={{"width":"350px"}}/>
 </div>
 <div class="mb-3">
-  <label for="exampleFormControlTextarea1" id="text" class="form-label">Message</label>
+  <label for="exampleFormControlTextarea1"  class="form-label">Message</label>
   <textarea class="form-control" id="messageText"  rows="3" style={{"width":"350px"}}></textarea>
 </div>
     <div class="col text-center" style={{'width':"330px"}}>

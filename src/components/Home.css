@@ -43,9 +43,9 @@
 .home-content button{
     margin-left: 200px;
     padding: 10px;
-    border-radius: 1px;
+    border-radius: 5px;
     cursor: pointer;
-    width: 118px;
+    
 }
 
 .home-content button:hover{
