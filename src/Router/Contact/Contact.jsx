@@ -23,7 +23,7 @@ const Contact = () => {
           
     e.preventDefault();
     }else{
-      toast.success("SuccessFully",{
+      toast.success("Email sent Successfully",{
                position:"top-right",
                autoClose:3000,
       })
@@ -58,11 +58,11 @@ const Contact = () => {
 
     <div class="mb-3 ">
   <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input type="text" class="form-control" id="user_name" placeholder="Your Name" style={{"width":"350px"}}/>
+  <input type="text" class="form-control" id="messageText" pattern="[a-zA-Z]*"  placeholder="Your Name" style={{"width":"350px"}}/>
 </div>
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="email" placeholder="Your Email" style={{"width":"350px"}}/>
+  <input type="email" class="form-control" id="messageText" placeholder="Your Email" style={{"width":"350px"}}/>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" id="text" class="form-label">Message</label>

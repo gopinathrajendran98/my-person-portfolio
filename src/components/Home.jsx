@@ -12,16 +12,13 @@ const Home = () =>{
 
         <section className="home-container">
             <div className="home-content">
-             <h2 class="text-start">Hi i am</h2>
-             <h3 class="text-start">Gopinath rajendran</h3>
-             <p>I am front end developer.</p>
-             <a href="resume_001-gopinath.pdf" download>
-                <button type="button" class="btn btn-secondary">Download CV</button>
+             <h2 class="text-start">Hi,</h2>
+             <h3 class="text-start">I am Gopinath Rajendran</h3>
+             <p>I am a frontend developer.</p>
+             <a href="resume.pdf" download>
+                <button type="button" class="btn btn-secondary">Resume</button>
             </a>
-            {/* <a href="https://www.shutterstock.com/image-vector/smiley-vector-happy-face-260nw-408014413.jpg" target="/_blank" >
-                <button>Hire Me</button>
-                
-            </a> */}
+        
             </div>
            
            

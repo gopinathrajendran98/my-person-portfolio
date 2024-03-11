@@ -18,6 +18,7 @@ const Navbar = () =>{
      <a class="nav-link " href="/contact">CONTACT ME</a> 
  
   </li>
+ 
 </ul>
 
         </>

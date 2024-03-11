@@ -9,7 +9,7 @@ const Skills = () => {
   <div class="row">
     <div class="col">
        <div  id="skills">
-        <p class="h3">Front End</p>
+        <p class="h3">Frontend</p>
         <ul class="list-group">
   <li class="list-group-item d-flex justify-content-between align-items-center">
    <span>HTML</span> 
@@ -51,7 +51,7 @@ const Skills = () => {
 </div> </div>
 <div class="col">
       <div >
-        <p class="h3">Back end</p>
+        <p class="h3">Backend</p>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
            Node JS

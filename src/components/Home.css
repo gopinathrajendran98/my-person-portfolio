@@ -49,7 +49,7 @@
 }
 
 .home-content button:hover{
-    color: darkmagenta;
+    background-color: darkmagenta;
     color: white;
 }
 
